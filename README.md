@@ -6,7 +6,7 @@
 
 # Langkah-langkah Praktikum<br>
 
-## Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut.<br>
+## Persiapan membuat dokumen HTML dengan nama <b>file lab3_list.html</b> seperti berikut.<br>
 
 ![Lab3web](gambar/no1.png)<br>
 
@@ -55,7 +55,7 @@ Hasilnya akan seperti berikut<br>
 
 ## 5. Mengatur Margin dan Padding <br>
 Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan
-cellspacing pada tag table.
+cellspacing pada tag table.<br>
 < table border="1" cellpadding="4" cellspacing="0" >
 
 ![Lab3web](gambar/tabel2.png)<br>
@@ -70,3 +70,30 @@ horizontal).
 Maka akan seperti berikut<br>
 
 ![Lab3web](gambar/seldata2.png)<br>
+
+## 7. Membuat Form<br>
+Buat file baru dengan nama <b>lab3_form.html</b> seperti berikut.<br>
+
+![Lab3web](gambar/no3.png)<br>
+
+Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:<br>
+
+![Lab3web](gambar/from1.png)<br>
+
+Simpan dan refresh browsur lihat hasilnya<br>
+
+![Lab3web](gambar/from2.png)<br>
+
+## 8. Menabahkan Style pada Form<br>
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+
+![Lab3web](gambar/style.png)<br>
+
+refresh browsur dan lihat perubahannya <br>
+
+![Lab3web](gambar/from3.png)
+
+</hr>
+<br>
+<br>
+
