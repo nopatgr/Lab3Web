@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <title>Form HTML</title>
-</head>
-<body>
-<form action="proses.php" method="get">
-      <p>Agama
-	  <select name='agama' multiple='multiple'>
-		<option value='islam'selected='selected'>Islam</option>
-		<option value='kristen' >Kristen</option>
-		<option value='katholik'>Katholik</option>
-		<option value='hindu'>Hindu</option>
-		<option value='kristen'>Budha</option>
-	  </select>
-	  </p>
-      <input type='submit' name='tombol' value='kirim' />
-</form>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form dropdown & Listbox with multiple selection</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <img class="logo" src="Logo UPB.png">
+      </div>
+      <div>
+        <h1>Form UPB</h1>
+      </div>
+    </div>
+    <form action="proses.php" method="post">
+      <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+        <label for="nim">NIM</label>
+        <input type="text" id="nim" name="nim">
+        <label for="jurusan">JK</label>
+        <input id="jk_l" type="radio" name="kelamin" value="L" />
+        <label for="jk_l">Laki-laki</label>
+        <input id="jk_p" type="radio" name="kelamin" value="P" />
+        <label for="jk_p">Perempuan</label>
+        <br>
+        <br>
+        <label for="jurusan">Jurusan(Dropdown)</label>
+        <select name="jurusan">
+          <option value="" selected="selected">--Pilih Jurusan--</option>
+          <option value="ti">Teknik Informatika</option>
+          <option value="ts">Teknik Sipil</option>
+          <option value="tl">Teknik Lingkungan</option>
+        </select>
+        <br>
+        <label for="jurusan2">Jurusan (multiple selection)</label>
+        <select multiple name="drawfs" id="jurusan">
+          <option value="ti">Teknik Informatika</option>
+          <option value="ts">Teknik Sipil</option>
+          <option value="tl">Teknik Lingkungan</option>
+        </select>
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        <p>
+          <input type="submit" value="Daftar">
+        </p>
+      </fieldset>
+    </form>
+  </body>
 </html>
