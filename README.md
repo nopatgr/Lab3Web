@@ -107,3 +107,16 @@ refresh browsur dan lihat perubahannya <br>
 
 ## Jawaban 
 
+HTML<br>
+
+![Lab3web](gambar/jwb1.png)
+
+CSS <br>
+
+![Lab3web](gambar/jwb2.png)
+
+Hasilnya <br>
+
+![Lab3web](gambar/jwb3.png)
+
+

@@ -1,0 +1,71 @@
+.logo {
+    width: 100px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+}
+body{
+    margin: auto;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: rgb(216, 216, 216);
+}
+form p > label 
+{
+    isplay: inline-block;
+width: 100px;
+}
+form input[type="text"], form textarea 
+{
+border: 1px solid #f3f3f3;
+}
+form input[type="submit"] 
+{
+border: 1px solid #197a43;
+background-color: #197a43;
+color: #ffffff;
+font-weight: bold;
+padding: 5px 15px;
+}
+    
+}
+form input[type="text"]
+form select,
+form textarea 
+{
+    border: 1px solid rgb(243, 243, 243);
+    width: 100%;
+    padding: 6px 10px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+form input [type="submit"]
+{
+    border: 5px solid rgb(248, 248, 247);
+    background-color: rgb(255, 255, 255);
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+select {
+    width: 100%;
+    height: 10px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(235, 235, 235);
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        width: 90%;
+    }
+}
